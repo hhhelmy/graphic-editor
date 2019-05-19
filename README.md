@@ -22,8 +22,11 @@ To Test the currently implemented shapes, you can use on the following technique
 
 To call any of the currently implemented shapes APIs (Square, Circle, Rectangle), call the below URL using Postman and pass necessary parameters (ex: x, y, ...):
 -http://YOURHOST/graphic-editor/public/api/drawSquare
+
 -http://YOURHOST/graphic-editor/public/api/drawCircle
+
 -http://YOURHOST/graphic-editor/public/api/drawRectangle
+
 
 2-Testing all shapes at one time (as the example provided in the task file) using Postman
 
@@ -47,6 +50,9 @@ php vendor/phpunit/phpunit/phpunit
 This project developed using:
 
 Programming Language: PHP 7.2.4
+
 Framework: Laravel Framework 5.8.17
+
 Unit Testing Framework: PHPUnit
+
 IDE: Eclipse
