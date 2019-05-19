@@ -32,6 +32,7 @@ To call any of the currently implemented shapes APIs (Square, Circle, Rectangle)
 2-Testing all shapes at one time (as the example provided in the task file) using Postman
 
 Just call this URL http://YOURHOST/graphic-editor/public/api/drawAllShapes  with POST input  as below:
+
 Shapes: [
 {"type" : "circle", "params" : {"x" : 1, "y" : 2, "radius" : 12, "color" : "blue"}},
 {"type" : "circle", "params" : {"x" : 3, "y" : 4, "radius" : 20, "color" : "red"}},
